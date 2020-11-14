@@ -5,7 +5,7 @@ const ColorBox = ({colorKey, colorName, radioClasses}) => {
     return (
         <>
             <input id={colorKey} className={checkbox} name="color-1" data-color={colorName} type="radio"/>
-			<label for={colorKey} className={checkBoxMask}></label>
+			<label htmlFor={colorKey} className={checkBoxMask}></label>
         </>
     )
 }
