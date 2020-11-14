@@ -17,13 +17,13 @@ const Gameboard = () => {
                             return <Colorbox colorKey={`checkbox-${i}`} colorName={color} radioClasses={["checkBox", `checkBox-Mask bg-${color}`]}/>
                         })}
                     </div>
-                    <div id="colorSequence">
+                </div>
+                <div id="colorSequence">
                         {/* id doesn't render */}
                         <ColorCell key={"color-1"} cellClasses="cell bg-grey"/>
                     </div>
                     {/* id not rendered */}
                     <Button key={"submit"} context="Assert"/>
-                </div>
             </div>
         </div>
     )
