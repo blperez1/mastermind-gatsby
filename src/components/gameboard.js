@@ -1,6 +1,7 @@
 import React from "react"
 import Colorbox from "../components/colorbox"
 import ColorCell from "../components/colorcell"
+import Button from "../components/button"
 
 
 const Gameboard = () => {
@@ -18,8 +19,10 @@ const Gameboard = () => {
                     </div>
                     <div id="colorSequence">
                         {/* id doesn't render */}
-                        <ColorCell key="color-1" cellClasses="cell bg-grey"></ColorCell>
+                        <ColorCell key={"color-1"} cellClasses="cell bg-grey"/>
                     </div>
+                    {/* id not rendered */}
+                    <Button key={"submit"} context="Assert"/>
                 </div>
             </div>
         </div>
