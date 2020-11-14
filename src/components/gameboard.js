@@ -1,5 +1,6 @@
 import React from "react"
 import Colorbox from "../components/colorbox"
+import ColorCell from "../components/colorcell"
 
 
 const Gameboard = () => {
@@ -14,11 +15,10 @@ const Gameboard = () => {
                             console.log(i)
                             return <Colorbox colorKey={`checkbox-${i}`} colorName={color} radioClasses={["checkBox", `checkBox-Mask bg-${color}`]}/>
                         })}
-                        {/* <Colorbox key="checkbox-2" colorName="brown" radioClasses={["checkBox", "checkBox-Mask bg-brown"]}/>
-                        <Colorbox key="checkbox-3" colorName="yellow" radioClasses={["checkBox", "checkBox-Mask bg-yellow"]}/>
-                        <Colorbox key="checkbox-4" colorName="orange" radioClasses={["checkBox", "checkBox-Mask bg-orange"]}/>
-                        <Colorbox key="checkbox-5" colorName="green" radioClasses={["checkBox", "checkBox-Mask bg-green"]}/> */}
-
+                    </div>
+                    <div id="colorSequence">
+                        {/* id doesn't render */}
+                        <ColorCell key="color-1" cellClasses="cell bg-grey"></ColorCell>
                     </div>
                 </div>
             </div>
