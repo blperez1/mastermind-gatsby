@@ -1,6 +1,7 @@
 import React from "react"
 import Colorbox from "../components/colorbox"
 import ColorCell from "../components/colorcell"
+import Button from "../components/button"
 
 
 const Gameboard = () => {
@@ -16,10 +17,19 @@ const Gameboard = () => {
                             return <Colorbox colorKey={`checkbox-${i}`} colorName={color} radioClasses={["checkBox", `checkBox-Mask bg-${color}`]}/>
                         })}
                     </div>
-                    <div id="colorSequence">
-                        {/* id doesn't render */}
-                    </div>
                 </div>
+                <div id="colorSequence">
+                        {/* id doesn't render */}
+<<<<<<< HEAD
+=======
+                        <ColorCell key="color-1" cellClasses="cell bg-grey"></ColorCell>
+                        <ColorCell key="color-2" cellClasses="cell bg-grey"></ColorCell>
+                        <ColorCell key="color-3" cellClasses="cell bg-grey"></ColorCell>
+                        <ColorCell key="color-4" cellClasses="cell bg-grey"></ColorCell>
+>>>>>>> colorcell-component
+                    </div>
+                    {/* id not rendered */}
+                    <Button key={"submit"} context="Assert"/>
             </div>
         </div>
     )
