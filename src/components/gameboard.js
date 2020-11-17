@@ -18,10 +18,6 @@ const Gameboard = () => {
                     </div>
                     <div id="colorSequence">
                         {/* id doesn't render */}
-                        <ColorCell key="color-1" cellClasses="cell bg-grey"></ColorCell>
-                        <ColorCell key="color-2" cellClasses="cell bg-grey"></ColorCell>
-                        <ColorCell key="color-3" cellClasses="cell bg-grey"></ColorCell>
-                        <ColorCell key="color-4" cellClasses="cell bg-grey"></ColorCell>
                     </div>
                 </div>
             </div>
