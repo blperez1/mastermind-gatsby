@@ -39,3 +39,33 @@
     margin: 0;
     align-items: center;
 }
+
+.result-cell {
+    width: 100%;
+    padding:10px 5px;
+}
+
+.cell {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+}
+
+#done{
+    background-color: #111212;
+    font-size: .9em;
+}
+#link{
+    background-color: #111212;
+}
+#done {
+    margin-top: 1em;
+}
+
+#colorSequence{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2px;
+    width: 300px;
+    align-self: center;
+}
