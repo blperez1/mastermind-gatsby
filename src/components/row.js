@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/row.css"
 
 const Row = ({context}) => {
     return (
