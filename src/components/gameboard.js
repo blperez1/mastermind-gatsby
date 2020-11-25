@@ -47,7 +47,6 @@ const Gameboard = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 
